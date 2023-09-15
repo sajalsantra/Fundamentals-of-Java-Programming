@@ -8,6 +8,7 @@ public class Arrays {
         for(int i=0; i<arr.length; i++){
             arr[i] = sc.nextInt();
         }
+        sc.close();
     }
     public static void printArray(int []arr){
         for(int val : arr) System.out.print(val+" ");
