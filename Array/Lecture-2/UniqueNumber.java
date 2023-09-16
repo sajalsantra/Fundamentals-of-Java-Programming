@@ -1,15 +1,20 @@
 import java.util.Scanner;
 
-public class PairWithTargetSum {
-    public static int targetSum(int []arr, int target){  //T.C - O(N^2)
+public class UniqueNumber {
+    private static int findUniqueNumber(int []arr){
         int n = arr.length;
-        int count = 0;
         for(int i=0; i<n; i++){
             for(int j=i+1; j<n; j++){
-                if(arr[i]+arr[j]==target) count++;
+                if(arr[i]==arr[j]){
+                    arr[i] = -1;
+                    arr[j] = -1;
+                }
             }
         }
-        return count;
+        for(int i=0; i<n; i++){
+            if(arr[i] != -1) return arr[i];
+        }
+        return -1;
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -21,6 +26,6 @@ public class PairWithTargetSum {
             arr[i] = sc.nextInt();
         }
         sc.close();
-        System.out.println(targetSum(arr, 5));
+        System.out.println(findUniqueNumber(arr));
     }
 }

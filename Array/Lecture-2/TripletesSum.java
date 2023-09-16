@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class TripletesSum {
-    public static int tripeletSum(int []arr, int target){
+    public static int tripeletSum(int []arr, int target){   //T.C - O(N^3)
         int n = arr.length;
         int count = 0;
         for(int i=0; i<n; i++){

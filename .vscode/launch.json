@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FirstRepeatingElement",
+            "request": "launch",
+            "mainClass": "FirstRepeatingElement",
+            "projectName": "Fundamentals-of-Java-Programming_145a04a1"
+        },
+        {
+            "type": "java",
+            "name": "SecondLargestElement",
+            "request": "launch",
+            "mainClass": "SecondLargestElement",
+            "projectName": "Fundamentals-of-Java-Programming_145a04a1"
+        },
+        {
+            "type": "java",
+            "name": "UniqueNumber",
+            "request": "launch",
+            "mainClass": "UniqueNumber",
+            "projectName": "Fundamentals-of-Java-Programming_145a04a1"
+        },
+        {
+            "type": "java",
             "name": "PairWithTargetSum",
             "request": "launch",
             "mainClass": "PairWithTargetSum",

@@ -1,15 +1,13 @@
 import java.util.Scanner;
 
-public class PairWithTargetSum {
-    public static int targetSum(int []arr, int target){  //T.C - O(N^2)
-        int n = arr.length;
-        int count = 0;
-        for(int i=0; i<n; i++){
-            for(int j=i+1; j<n; j++){
-                if(arr[i]+arr[j]==target) count++;
+public class FirstRepeatingElement {
+    private static int firstReapeatingNum(int []arr){
+        for(int i=0; i<arr.length; i++){
+            for(int j=i+1; j<arr.length; j++){
+                if(arr[i]==arr[j]) return arr[i];
             }
         }
-        return count;
+        return -1;
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -21,6 +19,6 @@ public class PairWithTargetSum {
             arr[i] = sc.nextInt();
         }
         sc.close();
-        System.out.println(targetSum(arr, 5));
-    }
+        System.out.println(firstReapeatingNum(arr));
+    }    
 }
