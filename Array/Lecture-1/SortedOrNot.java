@@ -1,5 +1,3 @@
-package Array;
-
 public class SortedOrNot {
     public static boolean sortedOrNot(int []arr){
         for(int i=0; i<arr.length; i++){

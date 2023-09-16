@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "PairWithTargetSum",
+            "request": "launch",
+            "mainClass": "PairWithTargetSum",
+            "projectName": "Array_1a8f8f4b"
+        },
+        {
+            "type": "java",
+            "name": "TripletesSum",
+            "request": "launch",
+            "mainClass": "TripletesSum",
+            "projectName": "Array_1a8f8f4b"
+        }
+    ]
+}

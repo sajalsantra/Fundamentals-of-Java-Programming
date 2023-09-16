@@ -1,5 +1,3 @@
-package Array;
-
 public class CountLastOccarence{
     public static int greaterElement(int []arr, int x){
         int count = 0;

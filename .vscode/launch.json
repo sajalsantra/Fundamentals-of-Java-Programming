@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PairWithTargetSum",
+            "request": "launch",
+            "mainClass": "PairWithTargetSum",
+            "projectName": "Fundamentals-of-Java-Programming_145a04a1"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
