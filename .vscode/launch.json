@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NumberIsPresentOrNot",
+            "request": "launch",
+            "mainClass": "NumberIsPresentOrNot",
+            "projectName": "Fundamentals-of-Java-Programming_145a04a1"
+        },
+        {
+            "type": "java",
+            "name": "RotatedArrayKSteps",
+            "request": "launch",
+            "mainClass": "RotatedArrayKSteps",
+            "projectName": "Fundamentals-of-Java-Programming_145a04a1"
+        },
+        {
+            "type": "java",
+            "name": "ReverseArray",
+            "request": "launch",
+            "mainClass": "ReverseArray",
+            "projectName": "Fundamentals-of-Java-Programming_145a04a1"
+        },
+        {
+            "type": "java",
+            "name": "SwapTwoVeriable",
+            "request": "launch",
+            "mainClass": "SwapTwoVeriable",
+            "projectName": "Fundamentals-of-Java-Programming_145a04a1"
+        },
+        {
+            "type": "java",
             "name": "FirstRepeatingElement",
             "request": "launch",
             "mainClass": "FirstRepeatingElement",
