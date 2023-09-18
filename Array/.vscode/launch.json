@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SquareSortedArray",
+            "request": "launch",
+            "mainClass": "SquareSortedArray",
+            "projectName": "Array_1a8f8f4b"
+        },
+        {
+            "type": "java",
+            "name": "OddEvenReArrange",
+            "request": "launch",
+            "mainClass": "OddEvenReArrange",
+            "projectName": "Array_1a8f8f4b"
+        },
+        {
+            "type": "java",
+            "name": "Sort01Array",
+            "request": "launch",
+            "mainClass": "Sort01Array",
+            "projectName": "Array_1a8f8f4b"
+        },
+        {
+            "type": "java",
             "name": "SwapTwoVeriable",
             "request": "launch",
             "mainClass": "SwapTwoVeriable",

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Sort01Array",
+            "request": "launch",
+            "mainClass": "Sort01Array",
+            "projectName": "Fundamentals-of-Java-Programming_145a04a1"
+        },
+        {
+            "type": "java",
             "name": "NumberIsPresentOrNot",
             "request": "launch",
             "mainClass": "NumberIsPresentOrNot",
