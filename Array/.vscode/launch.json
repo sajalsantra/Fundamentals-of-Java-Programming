@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PrefixSum",
+            "request": "launch",
+            "mainClass": "PrefixSum",
+            "projectName": "Array_1a8f8f4b"
+        },
+        {
+            "type": "java",
             "name": "SquareSortedArray",
             "request": "launch",
             "mainClass": "SquareSortedArray",

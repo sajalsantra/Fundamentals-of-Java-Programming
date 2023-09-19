@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "EqualPartition",
+            "request": "launch",
+            "mainClass": "EqualPartition",
+            "projectName": "Fundamentals-of-Java-Programming_145a04a1"
+        },
+        {
+            "type": "java",
+            "name": "SumInRange",
+            "request": "launch",
+            "mainClass": "SumInRange",
+            "projectName": "Fundamentals-of-Java-Programming_145a04a1"
+        },
+        {
+            "type": "java",
+            "name": "PrefixSum",
+            "request": "launch",
+            "mainClass": "PrefixSum",
+            "projectName": "Fundamentals-of-Java-Programming_145a04a1"
+        },
+        {
+            "type": "java",
             "name": "Sort01Array",
             "request": "launch",
             "mainClass": "Sort01Array",
