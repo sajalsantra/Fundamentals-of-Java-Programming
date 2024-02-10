@@ -14,7 +14,9 @@ public class Arrays {
     }
     public static int calLength(int []arr){  //Calculate arr length without length() function
         int size = 0;
-        for(int val : arr) size++;
+        for(@SuppressWarnings("unused") int val : arr){
+            size++;
+        }
         return size;
     }
     public static void main(String[] args) {
