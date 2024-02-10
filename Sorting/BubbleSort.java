@@ -33,5 +33,6 @@ class BubbleSort {
         printArray(arr);
         bubbleSort(arr);
         printArray(arr);
+        sc.close();
     }
 }
