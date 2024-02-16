@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SortTheName",
+            "request": "launch",
+            "mainClass": "Sorting.Problem.SortTheName",
+            "projectName": "Fundamentals-of-Java-Programming_145a04a1"
+        },
+        {
+            "type": "java",
+            "name": "MoveZero",
+            "request": "launch",
+            "mainClass": "Sorting.Problem.MoveZero",
+            "projectName": "Fundamentals-of-Java-Programming_145a04a1"
+        },
+        {
+            "type": "java",
             "name": "InsertionSort",
             "request": "launch",
             "mainClass": "Sorting.InsertionSort",
