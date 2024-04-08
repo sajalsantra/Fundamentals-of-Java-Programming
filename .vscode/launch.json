@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CountSort",
+            "request": "launch",
+            "mainClass": "Sorting.CountSort",
+            "projectName": "Fundamentals-of-Java-Programming_145a04a1"
+        },
+        {
+            "type": "java",
+            "name": "QuickSort",
+            "request": "launch",
+            "mainClass": "Sorting.QuickSort",
+            "projectName": "Fundamentals-of-Java-Programming_145a04a1"
+        },
+        {
+            "type": "java",
             "name": "MergeSort",
             "request": "launch",
             "mainClass": "Sorting.MergeSort",
