@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RadixSort",
+            "request": "launch",
+            "mainClass": "Sorting.RadixSort",
+            "projectName": "Fundamentals-of-Java-Programming_145a04a1"
+        },
+        {
+            "type": "java",
             "name": "CountSort",
             "request": "launch",
             "mainClass": "Sorting.CountSort",
