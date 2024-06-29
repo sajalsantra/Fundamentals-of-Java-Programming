@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Create2DArray",
+            "request": "launch",
+            "mainClass": "Create2DArray",
+            "projectName": "Fundamentals-of-Java-Programming_7df5b1f6"
+        },
+        {
+            "type": "java",
+            "name": "PrefixSumInRange",
+            "request": "launch",
+            "mainClass": "PrefixSumInRange",
+            "projectName": "Fundamentals-of-Java-Programming_7df5b1f6"
+        },
+        {
+            "type": "java",
+            "name": "PrefixSum",
+            "request": "launch",
+            "mainClass": "PrefixSum",
+            "projectName": "Fundamentals-of-Java-Programming_7df5b1f6"
+        },
+        {
+            "type": "java",
             "name": "RadixSort",
             "request": "launch",
             "mainClass": "Sorting.RadixSort",
