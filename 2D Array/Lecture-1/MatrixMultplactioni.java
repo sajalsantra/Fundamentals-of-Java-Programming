@@ -11,6 +11,18 @@ public class MatrixMultplactioni {
         }
     }
 
+    public static int[][] matrixMultiplaction(int [][] matrix1, int n, int m, int[][] matrix2, int x, int y){
+        int [][] result = new int[n][y];
+        for(int i=0; i<n; i++){
+            for(int j=0; j<y; j++){
+                for(int k=0; k<m; k++){
+                    result[i][j] += matrix1[i][k] * matrix2[k][j];
+                }
+            }
+        }
+
+        return result;
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter First Matrix Size: ");
@@ -43,6 +55,11 @@ public class MatrixMultplactioni {
         System.out.println("The Second Matrix is:");
         printMatrix(Matrix1);
 
-        System.out.println("The Matrix multiplication is:");
+        if(m==x){
+            System.out.println("The Matrix multiplication is:");
+            int [][] matrix = matrixMultiplaction(Matrix1, n, m, Matrix2, x, y);
+            printMatrix(matrix);
+        }
+        else System.out.println("Matrix multiplication is not possible.");
     }
 }

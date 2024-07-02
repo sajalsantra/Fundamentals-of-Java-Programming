@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PascalsTriangle",
+            "request": "launch",
+            "mainClass": "PascalsTriangle",
+            "projectName": "Fundamentals-of-Java-Programming_7df5b1f6"
+        },
+        {
+            "type": "java",
+            "name": "RotatedMatrix",
+            "request": "launch",
+            "mainClass": "RotatedMatrix",
+            "projectName": "Fundamentals-of-Java-Programming_7df5b1f6"
+        },
+        {
+            "type": "java",
+            "name": "MatrixTranspose",
+            "request": "launch",
+            "mainClass": "MatrixTranspose",
+            "projectName": "Fundamentals-of-Java-Programming_7df5b1f6"
+        },
+        {
+            "type": "java",
+            "name": "ReverseEachRowInMatrix",
+            "request": "launch",
+            "mainClass": "ReverseEachRowInMatrix",
+            "projectName": "Fundamentals-of-Java-Programming_7df5b1f6"
+        },
+        {
+            "type": "java",
+            "name": "MatrixMultplactioni",
+            "request": "launch",
+            "mainClass": "MatrixMultplactioni",
+            "projectName": "Fundamentals-of-Java-Programming_7df5b1f6"
+        },
+        {
+            "type": "java",
             "name": "Create2DArray",
             "request": "launch",
             "mainClass": "Create2DArray",
