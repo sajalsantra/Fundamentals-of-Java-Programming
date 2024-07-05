@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SumOfRectangle",
+            "request": "launch",
+            "mainClass": "SumOfRectangle",
+            "projectName": "Fundamentals-of-Java-Programming_7df5b1f6"
+        },
+        {
+            "type": "java",
+            "name": "CreateSpiralMatrix",
+            "request": "launch",
+            "mainClass": "CreateSpiralMatrix",
+            "projectName": "Fundamentals-of-Java-Programming_7df5b1f6"
+        },
+        {
+            "type": "java",
+            "name": "SpiralMatrixTraversal",
+            "request": "launch",
+            "mainClass": "SpiralMatrixTraversal",
+            "projectName": "Fundamentals-of-Java-Programming_7df5b1f6"
+        },
+        {
+            "type": "java",
             "name": "PascalsTriangle",
             "request": "launch",
             "mainClass": "PascalsTriangle",
