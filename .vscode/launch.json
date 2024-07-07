@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AssignCookies",
+            "request": "launch",
+            "mainClass": "AssignCookies",
+            "projectName": "Fundamentals-of-Java-Programming_7df5b1f6"
+        },
+        {
+            "type": "java",
             "name": "SumOfRectangle",
             "request": "launch",
             "mainClass": "SumOfRectangle",
