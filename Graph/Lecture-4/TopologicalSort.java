@@ -1,5 +1,3 @@
-package com.hello;
-
 import java.util.*;
 /* it has also known as Kahn's algorithm */
 public class TopologicalSort {
