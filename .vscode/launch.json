@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CycleDetation",
+            "request": "launch",
+            "mainClass": "CycleDetation",
+            "projectName": "Fundamentals-of-Java-Programming_7df5b1f6"
+        },
+        {
+            "type": "java",
             "name": "CourseScheduleII",
             "request": "launch",
             "mainClass": "CourseScheduleII",
