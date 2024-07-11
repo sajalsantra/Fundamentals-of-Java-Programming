@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "KruskalAlgo",
+            "request": "launch",
+            "mainClass": "KruskalAlgo",
+            "projectName": "Fundamentals-of-Java-Programming_7df5b1f6"
+        },
+        {
+            "type": "java",
             "name": "CycleDetation",
             "request": "launch",
             "mainClass": "CycleDetation",
