@@ -1,11 +1,12 @@
 {
     "java.project.sourcePaths": [
+        "Graph/Lecture-5",
         "Graph/Lecture-4",
         "Graph/Lecture-2",
         "2D Array/Lecture-4",
         "2D Array/Lecture-3",
         "2D Array/Lecture-2",
         "2D Array/Lecture-1",
-        "Graph/Lecture-5"
+        "DP"
     ]
 }
