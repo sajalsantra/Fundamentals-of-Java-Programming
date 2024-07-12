@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ConnectingCitiesWithMinimumCost",
+            "request": "launch",
+            "mainClass": "ConnectingCitiesWithMinimumCost",
+            "projectName": "Fundamentals-of-Java-Programming_7df5b1f6"
+        },
+        {
+            "type": "java",
             "name": "KruskalAlgo",
             "request": "launch",
             "mainClass": "KruskalAlgo",

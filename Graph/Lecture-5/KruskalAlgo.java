@@ -66,7 +66,7 @@ public class KruskalAlgo {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter Number of Vertises and Edges: ");
+        System.out.println("Enter Number of Vertises and Edges: ");
         int vertex = sc.nextInt();
         int edge = sc.nextInt();
         List<Edges> graph = new ArrayList<>();
