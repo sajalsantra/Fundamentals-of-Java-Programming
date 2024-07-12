@@ -1,5 +1,3 @@
-package com.hello;
-
 import java.util.*;
 
 public class AnyPathInGraph {
