@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LongestCommonSubsequence",
+            "request": "launch",
+            "mainClass": "LongestCommonSubsequence",
+            "projectName": "Fundamentals-of-Java-Programming_7df5b1f6"
+        },
+        {
+            "type": "java",
+            "name": "DijkstrasAlgorithm",
+            "request": "launch",
+            "mainClass": "DijkstrasAlgorithm",
+            "projectName": "Fundamentals-of-Java-Programming_7df5b1f6"
+        },
+        {
+            "type": "java",
             "name": "PrimsAlgorithm",
             "request": "launch",
             "mainClass": "PrimsAlgorithm",
